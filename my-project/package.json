@@ -9,9 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "engines": {
+  },
+  "engines": {
     "node": "20.x"
-    }
   },
   "dependencies": {
     "vite": "^4.4.9",
