@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+body {
+  background-color: #1A1D29;
+  padding-left: 114px;
+  padding-right: 114px;
+}
+
+.glow-link {
+  display: inline-block;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.glow-link:hover {
+  background-color: #FF6B6B;
+  /*color: #333333;*/
+  box-shadow: 0 2px 12px rgba(255, 107, 107, 0.8); 
+}
+
+.img-glow-bottom {
+  border: 0px solid #FF6B6B;
+  border-radius: 16px; 
+  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.543); 
+}
