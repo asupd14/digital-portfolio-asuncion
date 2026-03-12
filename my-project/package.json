@@ -9,12 +9,9 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^8.0.0-beta.13"
-  },
-  "overrides": {
-    "vite": "^8.0.0-beta.13"
   },
   "dependencies": {
+    "vite": "^4.4.9",
     "@tailwindcss/vite": "^4.2.1",
     "tailwindcss": "^4.2.1"
   }
