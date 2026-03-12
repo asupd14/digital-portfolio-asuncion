@@ -8,17 +8,17 @@
     "build": "vite build",
     "preview": "vite preview"
   },
-  "devDependencies": {
-    "vite": "^8.0.0-beta.13"
+   "dependencies": {
+    "vite": "^8.0.0-beta.13",
+    "@tailwindcss/vite": "^4.2.1",
+    "tailwindcss": "^4.2.1"
   },
   "overrides": {
-    "vite": "^8.0.0-beta.13"
+    "@tailwindcss/vite": {
+      "vite": "$vite"
+    }
   },
   "engines": {
     "node": "20.x"
-  },
-  "dependencies": {
-    "@tailwindcss/vite": "^4.2.1",
-    "tailwindcss": "^4.2.1"
   }
 }
