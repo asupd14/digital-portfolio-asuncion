@@ -2,8 +2,7 @@
 
 body {
   background-color: #1A1D29;
-  padding-left: 114px;
-  padding-right: 114px;
+  padding: 0 7.125rem;
 }
 
 .glow-link {
@@ -15,11 +14,16 @@ body {
 .glow-link:hover {
   background-color: #FF6B6B;
   /*color: #333333;*/
-  box-shadow: 0 2px 12px rgba(255, 107, 107, 0.8); 
+  box-shadow: 0 0.125rem 0.75rem rgba(255, 107, 107, 0.8); 
+
 }
 
 .img-glow-bottom {
   border: 0px solid #FF6B6B;
-  border-radius: 16px; 
-  box-shadow: 0 8px 25px rgba(255, 107, 107, 0.543); 
+  border-radius: 1rem; 
+  box-shadow: 0 0.5rem 1.5625rem rgba(255, 107, 107, 0.543); 
+}
+
+@media (max-width: 1024px) { 
+  body { padding-inline: 1rem; }
 }

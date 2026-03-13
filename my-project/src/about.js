@@ -9,7 +9,7 @@ export default function about() {
              
              <h1 class="text-[#FF6B6B] text-3xl md:text-4xl lg:text-5xl font-semibold">Asunción Peña</h1>
              
-             <div class="bg-[#302530] rounded-4xl p-3 md:p-4 border border-[#2E3340] mr-0 md:mr-auto inline-block text-center">
+             <div class="bg-[#302530] rounded-4xl p-3 md:p-4 border border-[#2E3340] mr-auto md:mr-auto inline-block text-center">
               <h2 class="text-[#E8EAED] text-lg md:text-xl font-semibold">Software Developer</h2>
              </div>
              
